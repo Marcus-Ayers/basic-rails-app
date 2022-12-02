@@ -3,9 +3,7 @@ class CreatePosts < ActiveRecord::Migration[7.0]
     create_table :posts do |t|
 
       t.string :name
-      t.string :email
-      t.string :first_name
-      t.string :last_name
+      t.string :content
 
       t.timestamps
     end
